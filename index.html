@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="grid">
+    <h1 class="titulo"> Código Secreto</h1>
+    <main class="main">
+      <span id="formulario">
+        <section class="form box">
+          <form action="" >
+            <label for="input-texto">-Solo letras minúsculas <br> -Sin acentos</label>
+              <div>    
+              <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aqui">
+              </div>
+              <div>
+                 <input class="btn" type="submit" value="Encriptar!" id="btn-encriptar">
+                <input class="btn" type="submit" value="Desencriptar!" id="btn-desencriptar">
+              </div>
+          </form>
+        </section>
+      </span>
+      <span id="cajaMensaje">   
+        <section class="msg box" >
+          <h2 id="">Mensaje encriptado:</h2>
+          <div>
+            <input class="text-input" type="text" id="msg"></input>
+          </div>
+          <div>
+            <input class="btn" type="submit" value="Copiar!" id="btn-copy">
+          </div>    
+          </section>
+      </span>
+    </main> 
+  </div>    
+<div>
+    <footer id="footer"> Pame Gomez Pacheco </footer> 
+</div> 
+
+    <script src="./js/js.js"></script>    
+
+</body>
+
+</html>
